@@ -16,6 +16,8 @@ function App() {
     const newTodos = todos.filter((_, i) => i !== index);
     setTodos(newTodos);
   };
+ 
+
 
   return (
     <div>
